@@ -7,7 +7,7 @@ variable "tf_workshop_ex1_vpc_sg_id" {
 
 variable "tf_workshop_ex1_subnet_id" {
   description = "The ID of the Subnet for Exercise 1"
-  default     = ["subnet-0b9cc866875838ab6"]
+  default     = "subnet-0b9cc866875838ab6"
 }
 
 # This value is taken from the pipeline environment variables
