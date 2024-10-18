@@ -35,8 +35,8 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
-			# checks if terraform files are formatted properly, but even if this fails,
-			# the workflow still continues due to continue-on-error: true
+        # checks if terraform files are formatted properly, but even if this fails,
+        # the workflow still continues due to continue-on-error: true
       - name: Terraform fmt
         id: fmt
         run: terraform fmt -check
